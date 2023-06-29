@@ -1,0 +1,15 @@
+
+<%= form_with model: @client do |form|%>
+<div>
+  <%= form.label :name%><br>
+  <%= form.text_field :name%>
+</div>
+<div>
+  <%= form.label :Password%><br>
+  <%= form.text_field :password%>
+</div>
+<div>
+  <%= form.submit %>
+</div>
+<%end%>
+
